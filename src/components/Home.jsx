@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <div id="home" class="intro-area section">
         <div class="name-skillslogo">
-          <div>
+          <div className='profileDataContainer'>
             <div class="profileData">
               <p>
                 {" "}
@@ -23,51 +23,51 @@ const Home = () => {
             </div>
           </div>
           <div class="dropping-texts">
-            <div>
+            <div className='droppings'>
               <img
                 src={csharpImg}
                 alt=""
                 class="logo-img"
               />
-            </div>
-            <div>
+            </div >
+            <div className='droppings'>
               <img
                 src="./assets/images/skillsLogos/csharp logo.png"
                 alt=""
                 class="logo-img"
               />
-            </div>
-            <div>
+            </div >
+            <div className='droppings'>
               <img
                 src={jsImg}     
                 alt=""
                 class="logo-img"
               />
             </div>
-            <div>
+            <div className='droppings'>
               <img
                 src={vueImg}
                 alt=""
                 class="logo-img"
               />
             </div>
-            <div>
+            <div className='droppings'>
+              <img
+                src={csharpImg}
+                alt=""
+                class="logo-img"
+              />
+            </div>
+            <div className='droppings'>
               <img
                 src={tscImg}
                 alt=""
                 class="logo-img"
               />
             </div>
-            <div>
+            <div className='droppings'>
               <img
-                src={tscImg}
-                alt=""
-                class="logo-img"
-              />
-            </div>
-            <div>
-              <img
-                src={tscImg}
+                src={csharpImg}
                 alt=""
                 class="logo-img"
               />

@@ -22,12 +22,12 @@ const NavBar = () => {
   ];
   return (
     <>
-      <div className="container fixed top-0 left-0 z-[999]">
-        <nav className="site-navbar nav">
+      <div className="container navBox fixed  left-0 z-[999]">
+        <nav className=" site-navbar nav">
           <a href="#">
-            <h2 className="site-logo text-lg font-medium mt-1"> F.O. </h2>{" "}
+            <h2 className="site-logo text-lg  text-white font-medium mt-1"> F.O. </h2>{" "}
           </a>
-          <div className="">
+          <div className=" navlinks">
             <ul>
               {navList.map((list, i) => (
                 <li key={i} >

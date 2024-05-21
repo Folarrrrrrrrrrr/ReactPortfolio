@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
-    <MainPage/>
+    <div className="MainPage">
+      <MainPage />
+    </div>
     </>
   )
 }

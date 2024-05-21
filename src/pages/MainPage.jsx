@@ -4,13 +4,12 @@ import Home from "../components/Home"
 import Projects from "../components/Projects"
 import About from "../components/About"
 import Services from "../components/Services"
-
 const MainPage =()=>{
 
     return(
         <>
-            <div className="mainPageStyle">
-                <NavBar/>
+            <div >
+                 <NavBar/>
                 <Home />
                 <Projects/>
                 <About/>
