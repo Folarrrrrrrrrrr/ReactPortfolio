@@ -32,11 +32,11 @@
 
 
 /* default styling start */
-/* *{
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-} */
+} 
 
 .container {
   /* width: 100%; */
@@ -541,7 +541,6 @@ a .gitubBtn{
 }
 img {
   max-width: 100%;
-  border: 0px;
 }
 ul,
 ol {
@@ -639,7 +638,7 @@ button {
   body {
     font-size: 14px;
     width: 100vw;
-    border:  2px solid white;
+    /* border:  2px solid white; */
   }
   h2 {
     margin-bottom: 20px;
